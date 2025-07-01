@@ -1,0 +1,23 @@
+.box {
+  width: 500px;
+  border: 1px solid black;
+}
+.item-img {
+  width: 400px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.win {
+  border: 10px solid green;
+  color: green;
+}
+.lose {
+  border: 10px solid red;
+  color: red;
+}
+.item-img {
+  border: 10px solid black;
+  color: black;
+}
