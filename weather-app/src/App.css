@@ -1,0 +1,19 @@
+body {
+  background: url('https://climavision.com/wp-content/uploads/2023/07/AdobeStock_440069937-scaled.jpeg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.weather-box {
+  border: 3px solid white;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: azure;
+}
