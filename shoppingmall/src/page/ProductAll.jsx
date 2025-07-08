@@ -14,7 +14,7 @@ const ProductAll = () => {
     try {
       setLoading(true);
       setError(null);
-      let url = ` https://my-json-server.typicode.com/kkhhjjoo/react-test/products`;
+      let url = `http://localhost:3004/products`;
       console.log('API URL:', url);
       let response = await fetch(url);
       if (!response.ok) {
